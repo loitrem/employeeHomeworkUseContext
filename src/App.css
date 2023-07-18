@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  width: 50%;
+  border: solid black;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 
 .App-logo {
@@ -35,4 +41,152 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.leftWrapper {
+  width: 50%;
+  height: 100%;
+}
+
+.rightWrapper {
+  width: 50%;
+  height: 100%;
+}
+
+.employeeDirectory,.employeeHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(59, 59, 59);
+  color: whitesmoke;
+  border-bottom:solid black;
+}
+
+.searchBarWrapper {
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.searchBar {
+  width: 90%;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.employeeList {
+  width: 100%;
+  border: 1px solid lightgray;
+}
+
+.employeeListItem {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.employeeDirectoryImg {
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+  border: solid black;
+}
+
+.employeeListItemLeft {
+  height: 100%;
+}
+
+.employeeListItemRight {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.leftName {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.leftTitle {
+  color: rgb(142, 142, 142);
+}
+
+.employeeInfoWrapper {
+  border-top: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  margin: 10px;
+}
+
+.employee {
+  display: flex;
+  border-bottom:1px solid lightgray;
+  padding: 5px;
+  align-items: center;
+}
+
+.employeeLeftImg {
+  height: 125px;
+  width: 125px;
+  border-radius: 100px;
+  border: solid black;
+}
+
+.employeeLeft {
+  margin-left: 25px;
+}
+
+.employeeRight {
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-bottom:1px solid lightgray;
+  overflow: hidden;
+}
+
+.contactListTop {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contactListBottom {
+
+}
+
+.office,.mobile,.sms,.email {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+  padding: 25px;
+}
+
+.officeTop,.mobileTop,.smsTop,.emailTop {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.officeBottom,.mobileBottom,.smsBottom,.emailBottom,.employeeTitle {
+  color: rgb(142, 142, 142);
+}
+
+.employeeName {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.employeeRight {
+  text-align: left;
 }
